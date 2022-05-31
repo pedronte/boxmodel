@@ -9,29 +9,43 @@
       ul > li {
         text-decoration: underline;
       }
-      ol > li{
-          text-decoration: underline;
-          text-decoration-style: dashed;
+      ol li {
+        text-decoration: underline;
+        text-decoration-style: dashed;
       }
     </style>
   </head>
   <body>
     <h1>CSS</h1>
     <ol>
-      <li style="font-weight: bolder">Minas Gerais</li>
-      <li style="font-size: x-large">Rio de Janeiro</li>
-      <li style="font-size: x-large; font-weight: bolder">São Paulo</li>
-      <li style="text-decoration: underline">Espírito Santo</li>
+      <li style="font-weight: bolder">
+        Minas Gerais
+        <ul>
+          <li>Juiz de Fora</li>
+          <li>Belo Horizonte</li>
+          <li>Bicas</li>
+        </ul>
+      </li>
+      <li style="font-size: x-large">
+        Rio de Janeiro
+        <ul>
+          <li>Barra Mansa</li>
+          <li>Três Rios</li>
+        </ul>
+      </li>
+      <li style="font-size: x-large; font-weight: bolder">
+        São Paulo
+        <ul>
+          <li>São Paulo</li>
+          <li>Santos</li>
+        </ul>
+      </li>
+      <li style="text-decoration: underline">
+        Espírito Santo
+        <ul>
+          <li>Vila Velha</li>
+        </ul>
+      </li>
     </ol>
-    <ul>
-      <li>Juiz de Fora</li>
-      <li>Belo Horizonte</li>
-      <li>Bicas</li>
-      <li>Barra Mansa</li>
-      <li>Três Rios</li>
-      <li>São Paulo</li>
-      <li>Santos</li>
-      <li>Vila Velha</li>
-    </ul>
   </body>
 </html>
