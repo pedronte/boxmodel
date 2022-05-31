@@ -6,44 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
     <style>
-      ul > li {
-        text-decoration: underline;
-      }
-      ol li {
+      li.cidade {
         text-decoration: underline;
         text-decoration-style: dashed;
+        font-size: small;
+      }
+      li.estado {
+        text-decoration: underline;
+        font-size: large;
       }
     </style>
   </head>
   <body>
     <h1>CSS</h1>
     <ol>
-      <li style="font-weight: bolder">
+      <li class="estado">
         Minas Gerais
         <ul>
-          <li>Juiz de Fora</li>
-          <li>Belo Horizonte</li>
-          <li>Bicas</li>
+          <li class="cidade">Juiz de Fora</li>
+          <li class="cidade">Belo Horizonte</li>
+          <li class="cidade">Bicas</li>
         </ul>
       </li>
-      <li style="font-size: x-large">
+      <li class="estado">
         Rio de Janeiro
         <ul>
-          <li>Barra Mansa</li>
-          <li>Três Rios</li>
+          <li class="cidade">Barra Mansa</li>
+          <li class="cidade">Três Rios</li>
         </ul>
       </li>
-      <li style="font-size: x-large; font-weight: bolder">
+      <li class="estado">
         São Paulo
         <ul>
-          <li>São Paulo</li>
-          <li>Santos</li>
+          <li class="cidade">São Paulo</li>
+          <li class="cidade">Santos</li>
         </ul>
       </li>
-      <li style="text-decoration: underline">
+      <li class="estado">
         Espírito Santo
         <ul>
-          <li>Vila Velha</li>
+          <li class="cidade">Vila Velha</li>
         </ul>
       </li>
     </ol>
